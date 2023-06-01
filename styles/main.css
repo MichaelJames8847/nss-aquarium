@@ -1,0 +1,29 @@
+.pageHeader {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin: 2em;
+}
+
+h1 {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin: 2em;
+}
+.fish__card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.fish__image {
+    display: flex;
+    border-style: solid;
+    margin: 1em;
+    padding: 1em;
+    max-height: 50%;
+    max-width: 50%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
